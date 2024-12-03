@@ -1,2 +1,0 @@
-WIDTH : 1 : U : En :  :  : 
-OUT_MODE : 1 : U : En : 0;;1 : 0 : 1

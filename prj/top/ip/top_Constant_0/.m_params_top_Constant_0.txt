@@ -1,2 +1,0 @@
-WIDTH; 1
-OUT_MODE; 1
