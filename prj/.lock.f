@@ -1,4 +1,0 @@
-DESKTOP-4UKJC18
-briansuneZ
-14836
-F:\MLKPAI_FS01\all_ad9361\MLK-L1-CZ06-DR1M90G-FM-Radio\prj\.lock.f
