@@ -6,6 +6,10 @@
 
 Pure Verilog-Based FM Radio using ad-fmcomms3 FMC card.
 
+# Hardware Setup
+
+![{8F8698D6-0987-4185-958C-D7324F0C6F1F}](https://github.com/user-attachments/assets/76bc980c-d422-47af-98bc-6b9ae9efba7e)
+
 ## Design Floor GUI
 
 ![{1CDE344F-02B6-4E42-A3C9-6B3956224BE1}](https://github.com/user-attachments/assets/260f164d-74df-4f7e-9c56-c206bac64881)
