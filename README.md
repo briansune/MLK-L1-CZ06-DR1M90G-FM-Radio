@@ -12,11 +12,18 @@ You need to change the RX frequency from the AD9361 project and regenerate the i
 
 ![{8F8698D6-0987-4185-958C-D7324F0C6F1F}](https://github.com/user-attachments/assets/76bc980c-d422-47af-98bc-6b9ae9efba7e)
 
-## Design Floor GUI
+### Design Floor GUI CMOS
 
 ![{1CDE344F-02B6-4E42-A3C9-6B3956224BE1}](https://github.com/user-attachments/assets/260f164d-74df-4f7e-9c56-c206bac64881)
 
-## Resources usage
+### Resources Usage
 
 ![{2A19AC29-B566-4ED2-833D-41E8DCF47111}](https://github.com/user-attachments/assets/d2a51e8d-ad36-4751-810b-e0960a879500)
 
+### Design Floor GUI LVDS
+
+![{95A942AF-E51F-4606-BF62-B84A2B6046F6}](https://github.com/user-attachments/assets/7ad79bd3-235b-4980-bd35-d3b7fdd2a955)
+
+### Resources Usage
+
+![{4FD26763-8096-4B5E-8771-2E8FE5221B57}](https://github.com/user-attachments/assets/2d3de470-5424-4b2c-9b32-e1d29ab8348d)
