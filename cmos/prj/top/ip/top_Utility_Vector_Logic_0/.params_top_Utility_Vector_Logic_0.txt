@@ -1,0 +1,6 @@
+SIZE : 1 : U : En :  : 1 : 1024
+And : 0 : U : En :  :  : 
+Or : 0 : U : En :  :  : 
+Xor : 0 : U : En :  :  : 
+Not : 1 : U : En :  :  : 
+OPERATION : 3 : G : En :  :  : 

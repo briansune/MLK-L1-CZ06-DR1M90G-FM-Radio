@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:root xmlns:xsi="http" xmlns:ipxact="http" xmlns:anlogic="http" xsi:schemaLocation="http">
+    <ipxact:compositeFile compositeFileTopName="top">
+        <ipxact:fileCollection>
+            <ipxact:file name="ip/top_ad9361_unit_0/top_ad9361_unit_0.xml">
+                <ipxact:instanceName>ad9361_unit_0</ipxact:instanceName>
+                <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/ad9361_unit.v</ipxact:ipPath>
+                <ipxact:customTool>use_rtl</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_PLL_0/top_PLL_0.xml">
+                <ipxact:instanceName>PLL_0</ipxact:instanceName>
+            </ipxact:file>
+            <ipxact:file name="ip/top_CIC_0/top_CIC_0.xml">
+                <ipxact:instanceName>CIC_I</ipxact:instanceName>
+                <ipxact:customTool>use_host</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_Utility_Vector_Logic_0/top_Utility_Vector_Logic_0.xml">
+                <ipxact:instanceName>reset2resetn</ipxact:instanceName>
+            </ipxact:file>
+            <ipxact:file name="ip/top_Constant_0/top_Constant_0.xml">
+                <ipxact:instanceName>Constant_0</ipxact:instanceName>
+            </ipxact:file>
+            <ipxact:file name="ip/top_CIC_1/top_CIC_1.xml">
+                <ipxact:instanceName>CIC_Q</ipxact:instanceName>
+                <ipxact:customTool>use_host</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_del_m_0/top_del_m_0.xml">
+                <ipxact:instanceName>del_m_0</ipxact:instanceName>
+                <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/del_m.v</ipxact:ipPath>
+                <ipxact:customTool>use_rtl</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_CIC_2/top_CIC_2.xml">
+                <ipxact:instanceName>CIC_I2</ipxact:instanceName>
+                <ipxact:customTool>use_host</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_CIC_3/top_CIC_3.xml">
+                <ipxact:instanceName>CIC_Q2</ipxact:instanceName>
+                <ipxact:customTool>use_host</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_CORDIC_0/top_CORDIC_0.xml">
+                <ipxact:instanceName>CORDIC_0</ipxact:instanceName>
+                <ipxact:customTool>use_host</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_hdmi_tmds_audio_0/top_hdmi_tmds_audio_0.xml">
+                <ipxact:instanceName>hdmi_tmds_audio_0</ipxact:instanceName>
+                <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/hdmi_core/hdmi_tmds_audio.v</ipxact:ipPath>
+                <ipxact:customTool>use_rtl</ipxact:customTool>
+            </ipxact:file>
+            <ipxact:file name="ip/top_PLL_1/top_PLL_1.xml">
+                <ipxact:instanceName>PLL_1</ipxact:instanceName>
+            </ipxact:file>
+        </ipxact:fileCollection>
+    </ipxact:compositeFile>
+</ipxact:root>

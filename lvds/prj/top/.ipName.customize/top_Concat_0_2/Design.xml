@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_top_Concat_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>concat_34bc40459dfa_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="Concat" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="PORT_NUM">2</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="IN_WIDTH_0">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="IN_WIDTH_1">6</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_2">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_3">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_4">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_5">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_6">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_7">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_8">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_9">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_10">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_11">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_12">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_13">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_14">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_15">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_16">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_17">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_18">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_19">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_20">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_21">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_22">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_23">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_24">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_25">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_26">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_27">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_28">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_29">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_30">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_31">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="NUM_32">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OUT_WIDTH">7</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>In0</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="concat_34bc40459dfa_Inst" portRef="In0"/>
+                <ipxact:externalPortReference portRef="In0"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>In1</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="concat_34bc40459dfa_Inst" portRef="In1"/>
+                <ipxact:externalPortReference portRef="In1"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>Dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="concat_34bc40459dfa_Inst" portRef="Dout"/>
+                <ipxact:externalPortReference portRef="Dout"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>DR1M90GEG484</anlogic:device>
+        <anlogic:displayname>Concat_1.0</anlogic:displayname>
+        <anlogic:ipGenVersion>1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

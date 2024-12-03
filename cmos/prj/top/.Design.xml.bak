@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http" xmlns:ipxact="http" xmlns:anlogic="http" xsi:schemaLocation="http">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_top</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>ad9361_unit_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="customized" name="ad9361_unit" version="1.0"/>
+            <ipxact:instancePath>ip/top_ad9361_unit_0</ipxact:instancePath>
+            <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/ad9361_unit.v</ipxact:ipPath>
+            <ipxact:customTool>use_rtl</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>PLL_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="PLLF9F0D0P0" version="1.0"/>
+            <ipxact:instancePath>ip/top_PLL_0</ipxact:instancePath>
+            <ipxact:configurableElementValues>
+                <configurableElementValue referenceId="BandWidth_setting_DISP">&quot;Low&quot;</configurableElementValue>
+                <configurableElementValue referenceId="BandWidth_setting_SUM">&quot;Low&quot;</configurableElementValue>
+                <configurableElementValue referenceId="BestVco_">1000.0</configurableElementValue>
+                <configurableElementValue referenceId="BestVref_">20.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ACTUAL_DUTY_CYCLE">50.0000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ACTUAL_FREQ_DISP">20.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_BUFFER">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_BUFG">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_CLOCK_B">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_CLOCK_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DC">50.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DF">50</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIVISION_FACTOR_DISP">50</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIVISION_FACTOR_SET_DISP">50</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIV_FACTOR_Max">50</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIV_FACTOR_Min">50</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_CTRL">1</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_DISP">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FORCE_SET">1</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ">20.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_PS">0.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_DUTY_CYCLE">50.00</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_FREQ_DISP">20.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_USE_B_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_CPHASE">49</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DIV">50</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DUTY_INT">25</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_ENABLE">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_DUTY50">&quot;ENABLE ENABLE ENABLE ENABLE ENABLE ENABLE ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_DUTY_INT_LIST">&quot;25 5 5 5 5 5 5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_FPHASE_PATH_RSTSEL">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK_MAIN_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_DISP">5</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_SET_DISP">5</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_MULT_FACTOR_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_MULT_FACTOR_SET_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_RESET_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_USED_SUM">&quot;CLK0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CONFIG_MODE_DISP">&quot;Clock Frequency&quot;</configurableElementValue>
+                <configurableElementValue referenceId="Charge_pump_current_DISP">6</configurableElementValue>
+                <configurableElementValue referenceId="Charge_pump_current_SUM">6</configurableElementValue>
+                <configurableElementValue referenceId="DERIVE_PLL_CLOCKS">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DISABLE_SIGN">0</configurableElementValue>
+                <configurableElementValue referenceId="DITHER_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC0">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC1">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC2">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC3">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC4">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC5">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC6">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIV_FACTOR_Max">5</configurableElementValue>
+                <configurableElementValue referenceId="DIV_FACTOR_Min">5</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_COARSE_PS_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_CONFIG_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_FINE_PS_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC0_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC0_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC1_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC1_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC2_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC2_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC3_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC3_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC4_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC4_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC5_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC5_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC6_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC6_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_FPHASE_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_PHASE_PATH_SEL">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_CLOCK_OUT_RESET_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_POWER_DOWN_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_RESET_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_RESET_SUM">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="EXT_USR_FREQ_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FBCLK_DIV">1</configurableElementValue>
+                <configurableElementValue referenceId="FBKCLK">&quot;CLKC0_EXT&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FBKCLK_INT">&quot;CLKC0_EXT&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_CLK_DISP">&quot;CLK0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE">&quot;NORMAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_DISP">&quot;Normal&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_IS_NOCOMP">0</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_IS_ZERODELAY">0</configurableElementValue>
+                <configurableElementValue referenceId="FEED_BACK_MODE_SUM">&quot;Normal&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FIN">&quot;100.0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FIN_DISP">100.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_Max">500.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_Min">10.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_UNIT_DISP">&quot;MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FRACTIONAL_AMP_DISP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRACTIONAL_ENABLE_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_AMP_Max">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_AMP_Min">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FREQ_OFFSET">131071</configurableElementValue>
+                <configurableElementValue referenceId="GEN_BASIC_CLOCK">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="GMC_GAIN">0</configurableElementValue>
+                <configurableElementValue referenceId="GMC_gain_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="GMC_gain_SUM">0</configurableElementValue>
+                <configurableElementValue referenceId="HIGH_SPEED_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ICP_CUR">6</configurableElementValue>
+                <configurableElementValue referenceId="INPUT_FREQ_SUM">100.000000</configurableElementValue>
+                <configurableElementValue referenceId="INTPI">0</configurableElementValue>
+                <configurableElementValue referenceId="KVCO_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="KVCO_SUM">0</configurableElementValue>
+                <configurableElementValue referenceId="LPF_CAP">2</configurableElementValue>
+                <configurableElementValue referenceId="LPF_RES">5</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_capactiance_DISP">2</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_capactiance_SUM">2</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_resistance_DISP">5</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_resistance_SUM">5</configurableElementValue>
+                <configurableElementValue referenceId="MAIN_MUXC">&quot;MAIN&quot;</configurableElementValue>
+                <configurableElementValue referenceId="MPHASE_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="MULT_FACTOR_Max">1</configurableElementValue>
+                <configurableElementValue referenceId="MULT_FACTOR_Min">1</configurableElementValue>
+                <configurableElementValue referenceId="PD_DIG">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PHASE_PATH_SEL">0</configurableElementValue>
+                <configurableElementValue referenceId="PLL_FEED_TYPE">&quot;EXTERNAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PLL_LOCK">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PLL_LOCK_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="PLL_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="POWER_DOWN_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC0">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC1">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC2">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC3">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC4">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC5">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC6">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_DET_BYP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_DIV">5</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_OUT_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_USR_RST">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SDM_FRAC">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_AMP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="SSC_AMP_FRACTION">0.0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SSC_ENABLE_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_FREQ">0.03</configurableElementValue>
+                <configurableElementValue referenceId="SSC_FREQ_DIV">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_MODE">&quot;DOWN&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SSC_NONE_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="SSC_RNGE">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_USER_FREQUENCY_MODULATION_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_COARSE_PS_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_CONFIG_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_FINE_PS_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="UseClkFreqSetting">1</configurableElementValue>
+                <configurableElementValue referenceId="VCO_FREQ_DISP">1000.0000</configurableElementValue>
+                <configurableElementValue referenceId="VREF_FREQ_DISP">20.0000</configurableElementValue>
+                <configurableElementValue referenceId="WORK_MODE">&quot;USER&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gen">&quot;0 0.5 4 0.5 1 0.5 5 0.5 2 0.5 6 0.5 3 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gen_resort">&quot;0.5 0.5 0.5 0.5 0.5 0.5 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gui">&quot;50.0000 50.0000 50.0000 50.0000 50.0000 50.0000 50.0000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_freq_">&quot;20.000000 100.000000 100.000000 100.000000 100.000000 100.000000 100.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_phase_shift_gen">&quot;0 0.0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_phase_shift_gen_resort">&quot;0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="calc_band_width">&quot;0 6 0 2 5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_enable_">&quot;1 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_freq_">&quot;20.000000 100.000000 100.000000 100.000000 100.000000 100.000000 100.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_freq_unit_">&quot;MHz MHz MHz MHz MHz MHz MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_phase_shift">&quot;0.0000 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_phase_shift_unit">&quot;deg deg deg deg deg deg deg&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clkc_en_no_use">1</configurableElementValue>
+                <configurableElementValue referenceId="clkcb_no_use">1</configurableElementValue>
+                <configurableElementValue referenceId="cphase_gen">&quot;0 49 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="cphase_resort">&quot;49 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="div_factor_">5</configurableElementValue>
+                <configurableElementValue referenceId="duty_cycle_">&quot;0.5 0.5 0.5 0.5 0.5 0.5 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fbclk_idx">0</configurableElementValue>
+                <configurableElementValue referenceId="feedback_mode">&quot;NORMAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fphase_gen">&quot;0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fphase_gen_resort">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fractional_amp">0.0</configurableElementValue>
+                <configurableElementValue referenceId="fvco_">1000.0</configurableElementValue>
+                <configurableElementValue referenceId="modulate_duty_cycle_gen">&quot;0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="modulate_duty_cycle_gen_resort">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="mul_factor_">1</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_">&quot;50 10 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_gen">&quot;0 50 4 10 1 10 5 10 2 10 6 10 3 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_gen_resort">&quot;50 10 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_user">&quot;50 10 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="problem_sum">0</configurableElementValue>
+                <configurableElementValue referenceId="sum_act_freq">&quot;4 100.000000 0 20.000000 5 100.000000 1 100.000000 6 100.000000 2 100.000000 3 100.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_calcdiv">&quot;0 50 4 10 1 10 5 10 2 10 6 10 3 10 1000.0 20.0 5 1&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_duty_cycle">&quot;0 0.5 4 0.5 1 0.5 5 0.5 2 0.5 6 0.5 3 0.5 0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_fractional">&quot;1000.0 0.0 0 1&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_phase_shift">&quot;0 49 4 0 1 0 5 0 2 0 6 0 3 0 0 0 4 0 1 0 5 0 2 0 6 0 3 0 0 0.0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_ssc">&quot;0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="use_dynamic_phase_shift">0</configurableElementValue>
+                <configurableElementValue referenceId="use_ssc">0</configurableElementValue>
+                <configurableElementValue referenceId="user_duty_cycle_gui">&quot;50.00 50.00 50.00 50.00 50.00 50.00 50.00&quot;</configurableElementValue>
+                <configurableElementValue referenceId="vco_">1000.0</configurableElementValue>
+                <configurableElementValue referenceId="vref_">20.0</configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>CIC_I</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="Generic IP Lib" name="CIC" version="1.0"/>
+            <ipxact:instancePath>ip/top_CIC_0</ipxact:instancePath>
+            <ipxact:customTool>use_host</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>reset2resetn</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="Utility_Vector_Logic" version="1.0"/>
+            <ipxact:instancePath>ip/top_Utility_Vector_Logic_0</ipxact:instancePath>
+            <ipxact:configurableElementValues>
+                <configurableElementValue referenceId="And">0</configurableElementValue>
+                <configurableElementValue referenceId="Not">1</configurableElementValue>
+                <configurableElementValue referenceId="OPERATION">3</configurableElementValue>
+                <configurableElementValue referenceId="Or">0</configurableElementValue>
+                <configurableElementValue referenceId="SIZE">1</configurableElementValue>
+                <configurableElementValue referenceId="Xor">0</configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>Constant_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="Constant" version="1.0"/>
+            <ipxact:instancePath>ip/top_Constant_0</ipxact:instancePath>
+            <ipxact:configurableElementValues>
+                <configurableElementValue referenceId="OUT_MODE">1</configurableElementValue>
+                <configurableElementValue referenceId="WIDTH">1</configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>CIC_Q</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="Generic IP Lib" name="CIC" version="1.0"/>
+            <ipxact:instancePath>ip/top_CIC_1</ipxact:instancePath>
+            <ipxact:customTool>use_host</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>del_m_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="customized" name="del_m" version="1.0"/>
+            <ipxact:instancePath>ip/top_del_m_0</ipxact:instancePath>
+            <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/del_m.v</ipxact:ipPath>
+            <ipxact:customTool>use_rtl</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>CIC_I2</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="Generic IP Lib" name="CIC" version="1.0"/>
+            <ipxact:instancePath>ip/top_CIC_2</ipxact:instancePath>
+            <ipxact:customTool>use_host</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>CIC_Q2</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="Generic IP Lib" name="CIC" version="1.0"/>
+            <ipxact:instancePath>ip/top_CIC_3</ipxact:instancePath>
+            <ipxact:customTool>use_host</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>CORDIC_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="Generic IP Lib" name="CORDIC" version="1.0"/>
+            <ipxact:instancePath>ip/top_CORDIC_0</ipxact:instancePath>
+            <ipxact:customTool>use_host</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>hdmi_tmds_audio_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="customized" name="hdmi_tmds_audio" version="1.0"/>
+            <ipxact:instancePath>ip/top_hdmi_tmds_audio_0</ipxact:instancePath>
+            <ipxact:ipPath>F:/MLKPAI_FS01/all_ad9361/ad9361_cmos_fm/hdmi_core/hdmi_tmds_audio.v</ipxact:ipPath>
+            <ipxact:customTool>use_rtl</ipxact:customTool>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>PLL_1</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="PLLF9F0D0P0" version="1.0"/>
+            <ipxact:instancePath>ip/top_PLL_1</ipxact:instancePath>
+            <ipxact:configurableElementValues>
+                <configurableElementValue referenceId="BandWidth_setting_DISP">&quot;Medium&quot;</configurableElementValue>
+                <configurableElementValue referenceId="BandWidth_setting_SUM">&quot;Medium&quot;</configurableElementValue>
+                <configurableElementValue referenceId="BestVco_">1000.0</configurableElementValue>
+                <configurableElementValue referenceId="BestVref_">20.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ACTUAL_DUTY_CYCLE">50.0000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ACTUAL_FREQ_DISP">148.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ACTUAL_PHASE_SHIFT_DISP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_BUFFER">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_BUFG">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_CLOCK_B">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_CLOCK_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DC">50.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DF">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIVISION_FACTOR_DISP">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIVISION_FACTOR_SET_DISP">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_CTRL">1</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_ENABLE_DISP">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ">148.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_PS">0.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_DUTY_CYCLE">50.00</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_FREQ_DISP">148.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_PHASE_SHIFT_DISP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_REQUEST_PHASE_SHIFT_UNIT_DISP">&quot;deg&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK0_USE_B_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ACTUAL_DUTY_CYCLE">50.0000</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ACTUAL_FREQ_DISP">740.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_BUFFER">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_BUFG">&quot;BUFG&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_CLOCK_B">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_CLOCK_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DC">50.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DF">2</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIVISION_FACTOR_DISP">2</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIVISION_FACTOR_SET_DISP">2</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIV_FACTOR_Max">2</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_DIV_FACTOR_Min">2</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ENABLE_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ENABLE_CTRL">1</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_ENABLE_DISP">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FORCE_SET">1</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FREQ">740.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_PS">0.0</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_REQUEST_DUTY_CYCLE">50.00</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_REQUEST_FREQ_DISP">740.000000</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_REQUEST_FREQ_UNIT_DISP">&quot;MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK1_USE_B_CLOCK_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK2_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK3_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK4_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK5_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_DIV_FACTOR_Max">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_DIV_FACTOR_Min">10</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_ENABLE_CTRL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_ENABLE_DISP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FORCE_SET">0</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FREQ_Max">1000</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_FREQ_Min">6.25</configurableElementValue>
+                <configurableElementValue referenceId="CLK6_PS_Max">359.9999</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_CPHASE">9</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_ENABLE">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC0_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_CPHASE">1</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DIV">2</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_DUTY_INT">1</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_ENABLE">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC1_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC2_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC3_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC4_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC5_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_CPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_CPHASE_DIV2">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DIV">10</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DIV2_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DUTY50">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_DUTY_INT">5</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_FPHASE">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC6_FPHASE_RSTSEL">0</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_DUTY50">&quot;ENABLE ENABLE ENABLE ENABLE ENABLE ENABLE ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_DUTY_INT_LIST">&quot;5 1 5 5 5 5 5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLKC_FPHASE_PATH_RSTSEL">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLK_MAIN_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_DISP">5</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_DIVISION_FACTOR_SET_DISP">5</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_MULT_FACTOR_DISP">37</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_MULT_FACTOR_SET_DISP">37</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_RESET_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="CLOCK_USED_SUM">&quot;CLK1&quot;</configurableElementValue>
+                <configurableElementValue referenceId="CONFIG_MODE_DISP">&quot;Clock Frequency&quot;</configurableElementValue>
+                <configurableElementValue referenceId="Charge_pump_current_DISP">10</configurableElementValue>
+                <configurableElementValue referenceId="Charge_pump_current_SUM">10</configurableElementValue>
+                <configurableElementValue referenceId="DERIVE_PLL_CLOCKS">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DISABLE_SIGN">0</configurableElementValue>
+                <configurableElementValue referenceId="DITHER_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC0">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC1">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC2">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC3">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC4">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC5">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIVOUT_MUXC6">&quot;DIV&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DIV_FACTOR_Max">5</configurableElementValue>
+                <configurableElementValue referenceId="DIV_FACTOR_Min">5</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_COARSE_PS_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_CONFIG_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYNAMIC_FINE_PS_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC0_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC0_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC1_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC1_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC2_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC2_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC3_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC3_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC4_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC4_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC5_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC5_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC6_DIV2_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_CPHASE_CLKC6_DIV_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_FPHASE_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="DYN_PHASE_PATH_SEL">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_CLOCK_OUT_RESET_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_POWER_DOWN_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_RESET_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="ENABLE_RESET_SUM">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="EXT_USR_FREQ_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FBCLK_DIV">37</configurableElementValue>
+                <configurableElementValue referenceId="FBKCLK">&quot;CLKC1_EXT&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FBKCLK_INT">&quot;CLKC1_EXT&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_CLK_DISP">&quot;CLK1&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE">&quot;NORMAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_DISP">&quot;Normal&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_IS_NOCOMP">0</configurableElementValue>
+                <configurableElementValue referenceId="FEEDBK_MODE_IS_ZERODELAY">0</configurableElementValue>
+                <configurableElementValue referenceId="FEED_BACK_MODE_SUM">&quot;Normal&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FIN">&quot;100.0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FIN_DISP">100.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_Max">500.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_Min">10.000000</configurableElementValue>
+                <configurableElementValue referenceId="FIN_UNIT_DISP">&quot;MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FRACTIONAL_AMP_DISP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRACTIONAL_ENABLE_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_AMP_Max">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_AMP_Min">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="FRAC_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="FREQ_OFFSET">131071</configurableElementValue>
+                <configurableElementValue referenceId="GEN_BASIC_CLOCK">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="GMC_GAIN">0</configurableElementValue>
+                <configurableElementValue referenceId="GMC_gain_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="GMC_gain_SUM">0</configurableElementValue>
+                <configurableElementValue referenceId="HIGH_SPEED_EN">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="ICP_CUR">10</configurableElementValue>
+                <configurableElementValue referenceId="INPUT_FREQ_SUM">100.000000</configurableElementValue>
+                <configurableElementValue referenceId="INTPI">1</configurableElementValue>
+                <configurableElementValue referenceId="KVCO_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="KVCO_SUM">0</configurableElementValue>
+                <configurableElementValue referenceId="LPF_CAP">2</configurableElementValue>
+                <configurableElementValue referenceId="LPF_RES">4</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_capactiance_DISP">2</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_capactiance_SUM">2</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_resistance_DISP">4</configurableElementValue>
+                <configurableElementValue referenceId="Loop_filter_resistance_SUM">4</configurableElementValue>
+                <configurableElementValue referenceId="MAIN_MUXC">&quot;MAIN&quot;</configurableElementValue>
+                <configurableElementValue referenceId="MPHASE_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="MULT_FACTOR_Max">37</configurableElementValue>
+                <configurableElementValue referenceId="MULT_FACTOR_Min">37</configurableElementValue>
+                <configurableElementValue referenceId="PD_DIG">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PHASE_PATH_SEL">0</configurableElementValue>
+                <configurableElementValue referenceId="PLL_FEED_TYPE">&quot;EXTERNAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PLL_LOCK">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PLL_LOCK_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="PLL_USR_RST">&quot;ENABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="POWER_DOWN_SUM">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC0">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC1">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC2">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC3">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC4">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC5">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="PREDIV_MUXC6">&quot;VCO&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_DET_BYP">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_DIV">5</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_OUT_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="REFCLK_USR_RST">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SDM_FRAC">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_AMP">0.0000</configurableElementValue>
+                <configurableElementValue referenceId="SSC_AMP_FRACTION">0.0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_ENABLE">&quot;DISABLE&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SSC_ENABLE_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_FREQ">0.03</configurableElementValue>
+                <configurableElementValue referenceId="SSC_FREQ_DIV">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_MODE">&quot;DOWN&quot;</configurableElementValue>
+                <configurableElementValue referenceId="SSC_NONE_DISP">1</configurableElementValue>
+                <configurableElementValue referenceId="SSC_RNGE">0</configurableElementValue>
+                <configurableElementValue referenceId="SSC_USER_FREQUENCY_MODULATION_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_COARSE_PS_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_CONFIG_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="USE_DYNAMIC_FINE_PS_DISP">0</configurableElementValue>
+                <configurableElementValue referenceId="UseClkFreqSetting">1</configurableElementValue>
+                <configurableElementValue referenceId="VCO_FREQ_DISP">1480.0000</configurableElementValue>
+                <configurableElementValue referenceId="VREF_FREQ_DISP">20.0000</configurableElementValue>
+                <configurableElementValue referenceId="WORK_MODE">&quot;USER&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gen">&quot;0 0.5 4 0.5 1 0.5 5 0.5 2 0.5 6 0.5 3 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gen_resort">&quot;0.5 0.5 0.5 0.5 0.5 0.5 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_duty_cycle_gui">&quot;50.0000 50.0000 50.0000 50.0000 50.0000 50.0000 50.0000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_freq_">&quot;148.000000 740.000000 148.000000 148.000000 148.000000 148.000000 148.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_phase_shift_gen">&quot;0 0.0 4 0 1 0.0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="actual_phase_shift_gen_resort">&quot;0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="calc_band_width">&quot;0 10 0 2 4&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_enable_">&quot;1 1 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_freq_">&quot;148.000000 740.000000 100.000000 100.000000 100.000000 100.000000 100.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_freq_unit_">&quot;MHz MHz MHz MHz MHz MHz MHz&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_phase_shift">&quot;0.0000 0.0000 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clk_phase_shift_unit">&quot;deg deg deg deg deg deg deg&quot;</configurableElementValue>
+                <configurableElementValue referenceId="clkc_en_no_use">1</configurableElementValue>
+                <configurableElementValue referenceId="clkcb_no_use">1</configurableElementValue>
+                <configurableElementValue referenceId="cphase_gen">&quot;0 9 4 0 1 1 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="cphase_resort">&quot;9 1 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="div_factor_">5</configurableElementValue>
+                <configurableElementValue referenceId="duty_cycle_">&quot;0.5 0.5 0.5 0.5 0.5 0.5 0.5&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fbclk_idx">1</configurableElementValue>
+                <configurableElementValue referenceId="feedback_mode">&quot;NORMAL&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fphase_gen">&quot;0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fphase_gen_resort">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="fractional_amp">0.0</configurableElementValue>
+                <configurableElementValue referenceId="fvco_">1480.0</configurableElementValue>
+                <configurableElementValue referenceId="modulate_duty_cycle_gen">&quot;0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="modulate_duty_cycle_gen_resort">&quot;0 0 0 0 0 0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="mul_factor_">37</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_">&quot;10 2 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_gen">&quot;0 10 4 10 1 2 5 10 2 10 6 10 3 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_gen_resort">&quot;10 2 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="post_scale_counter_user">&quot;10 2 10 10 10 10 10&quot;</configurableElementValue>
+                <configurableElementValue referenceId="problem_sum">0</configurableElementValue>
+                <configurableElementValue referenceId="sum_act_freq">&quot;4 148.000000 0 148.000000 5 148.000000 1 740.000000 6 148.000000 2 148.000000 3 148.000000&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_calcdiv">&quot;0 10 4 10 1 2 5 10 2 10 6 10 3 10 1480.0 20.0 5 37&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_duty_cycle">&quot;0 0.5 4 0.5 1 0.5 5 0.5 2 0.5 6 0.5 3 0.5 0 0 4 0 1 0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_fractional">&quot;1480.0 0.0 0 37&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_phase_shift">&quot;0 9 4 0 1 1 5 0 2 0 6 0 3 0 0 0 4 0 1 0 5 0 2 0 6 0 3 0 0 0.0 4 0 1 0.0 5 0 2 0 6 0 3 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="sum_ssc">&quot;0 0&quot;</configurableElementValue>
+                <configurableElementValue referenceId="use_dynamic_phase_shift">0</configurableElementValue>
+                <configurableElementValue referenceId="use_ssc">0</configurableElementValue>
+                <configurableElementValue referenceId="user_duty_cycle_gui">&quot;50.00 50.00 50.00 50.00 50.00 50.00 50.00&quot;</configurableElementValue>
+                <configurableElementValue referenceId="vco_">1480.0</configurableElementValue>
+                <configurableElementValue referenceId="vref_">20.0</configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>reset2resetn_0</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="Utility_Vector_Logic" version="1.0"/>
+            <ipxact:instancePath>ip/top_reset2resetn_0</ipxact:instancePath>
+            <ipxact:configurableElementValues>
+                <configurableElementValue referenceId="And">0</configurableElementValue>
+                <configurableElementValue referenceId="Not">1</configurableElementValue>
+                <configurableElementValue referenceId="OPERATION">3</configurableElementValue>
+                <configurableElementValue referenceId="Or">0</configurableElementValue>
+                <configurableElementValue referenceId="SIZE">1</configurableElementValue>
+                <configurableElementValue referenceId="Xor">0</configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:designPorts>
+        <ipxact:designPort>
+            <ipxact:name>sys_clk</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>sys_nrst</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ad9361_spi_miso</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ad9361_spi_cs</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ad9361_spi_sclk</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ad9361_spi_mosi</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>en_agc</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>enable</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>resetb</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>txnrx</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>sync_in</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ctrl_in</ipxact:name>
+            <ipxact:vectorL>3</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>p1_d</ipxact:name>
+            <ipxact:vectorL>11</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>data_clk_p</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>data_clk_n</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>rx_frame_p</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>rx_frame_n</ipxact:name>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>p0_d</ipxact:name>
+            <ipxact:vectorL>11</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>ctrl_out</ipxact:name>
+            <ipxact:vectorL>7</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>input</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>fb_clk_p</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>fb_clk_n</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>tx_frame_p</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>tx_frame_n</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>led</ipxact:name>
+            <ipxact:vectorL>6</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>hdmi_clk</ipxact:name>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+        <ipxact:designPort>
+            <ipxact:name>hdmi_d</ipxact:name>
+            <ipxact:vectorL>2</ipxact:vectorL>
+            <ipxact:vectorR>0</ipxact:vectorR>
+            <ipxact:direction>output</ipxact:direction>
+        </ipxact:designPort>
+    </ipxact:designPorts>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__CIC_I__dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="CIC_I" portRef="dout"/>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="tap_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__CIC_Q__dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="CIC_Q" portRef="dout"/>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="tap_q"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__CORDIC_0__angle</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="angle"/>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="hdmi_aud"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__Constant_0__dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="Constant_0" portRef="dout"/>
+                <ipxact:internalPortReference componentRef="CIC_I" portRef="din_en"/>
+                <ipxact:internalPortReference componentRef="CIC_Q" portRef="din_en"/>
+                <ipxact:internalPortReference componentRef="CIC_I2" portRef="din_en"/>
+                <ipxact:internalPortReference componentRef="CIC_Q2" portRef="din_en"/>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="start"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__PLL_0__clk0_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_0" portRef="clk0_out"/>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="sys_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__PLL_0__lock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_0" portRef="lock"/>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="sys_nrst"/>
+                <ipxact:internalPortReference componentRef="reset2resetn" portRef="vector_a"/>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="aresetn"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__PLL_1__clk0_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_1" portRef="clk0_out"/>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="clk_pixel"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__PLL_1__clk1_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_1" portRef="clk1_out"/>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="clk_pixel_x5"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__PLL_1__lock</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_1" portRef="lock"/>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="sys_nrst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_spi_miso</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ad9361_spi_miso"/>
+                <ipxact:externalPortReference portRef="ad9361_spi_miso"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__ad9361_spi_cs</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ad9361_spi_cs"/>
+                <ipxact:externalPortReference portRef="ad9361_spi_cs"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__ad9361_spi_mosi</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ad9361_spi_mosi"/>
+                <ipxact:externalPortReference portRef="ad9361_spi_mosi"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__ad9361_spi_sclk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ad9361_spi_sclk"/>
+                <ipxact:externalPortReference portRef="ad9361_spi_sclk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__bufg_rx_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="bufg_rx_clk"/>
+                <ipxact:internalPortReference componentRef="CIC_I" portRef="clk"/>
+                <ipxact:internalPortReference componentRef="CIC_Q" portRef="clk"/>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="aclk"/>
+                <ipxact:internalPortReference componentRef="CIC_I2" portRef="clk"/>
+                <ipxact:internalPortReference componentRef="CIC_Q2" portRef="clk"/>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__ctrl_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ctrl_in"/>
+                <ipxact:externalPortReference portRef="ctrl_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__en_agc</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="en_agc"/>
+                <ipxact:externalPortReference portRef="en_agc"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__enable</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="enable"/>
+                <ipxact:externalPortReference portRef="enable"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__fb_clk_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="fb_clk_n"/>
+                <ipxact:externalPortReference portRef="fb_clk_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__fb_clk_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="fb_clk_p"/>
+                <ipxact:externalPortReference portRef="fb_clk_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__led</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="led"/>
+                <ipxact:externalPortReference portRef="led"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__p1_d</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="p1_d"/>
+                <ipxact:externalPortReference portRef="p1_d"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__resetb</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="resetb"/>
+                <ipxact:externalPortReference portRef="resetb"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__rx_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="rx_i"/>
+                <ipxact:internalPortReference componentRef="CIC_I" portRef="din"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__rx_q</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="rx_q"/>
+                <ipxact:internalPortReference componentRef="CIC_Q" portRef="din"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__sync_in</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="sync_in"/>
+                <ipxact:externalPortReference portRef="sync_in"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__tx_frame_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="tx_frame_n"/>
+                <ipxact:externalPortReference portRef="tx_frame_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__tx_frame_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="tx_frame_p"/>
+                <ipxact:externalPortReference portRef="tx_frame_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ad9361_unit_0__txnrx</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="txnrx"/>
+                <ipxact:externalPortReference portRef="txnrx"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__ctrl_out</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="ctrl_out"/>
+                <ipxact:externalPortReference portRef="ctrl_out"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__data_clk_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="data_clk_n"/>
+                <ipxact:externalPortReference portRef="data_clk_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__data_clk_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="data_clk_p"/>
+                <ipxact:externalPortReference portRef="data_clk_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__del_m_0__out_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="out_i"/>
+                <ipxact:internalPortReference componentRef="CIC_I2" portRef="din"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__del_m_0__out_q</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="del_m_0" portRef="out_q"/>
+                <ipxact:internalPortReference componentRef="CIC_Q2" portRef="din"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__hdmi_tmds_audio_0__hdmi_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="hdmi_clk"/>
+                <ipxact:externalPortReference portRef="hdmi_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__hdmi_tmds_audio_0__hdmi_d</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="hdmi_tmds_audio_0" portRef="hdmi_d"/>
+                <ipxact:externalPortReference portRef="hdmi_d"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__p0_d</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="p0_d"/>
+                <ipxact:externalPortReference portRef="p0_d"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__reset2resetn_0__result_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="reset2resetn_0" portRef="result_vector"/>
+                <ipxact:internalPortReference componentRef="PLL_0" portRef="pllreset"/>
+                <ipxact:internalPortReference componentRef="PLL_1" portRef="pllreset"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__reset2resetn__result_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="reset2resetn" portRef="result_vector"/>
+                <ipxact:internalPortReference componentRef="CIC_I" portRef="rst"/>
+                <ipxact:internalPortReference componentRef="CIC_Q" portRef="rst"/>
+                <ipxact:internalPortReference componentRef="CIC_I2" portRef="rst"/>
+                <ipxact:internalPortReference componentRef="CIC_Q2" portRef="rst"/>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="rst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__rx_frame_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="rx_frame_n"/>
+                <ipxact:externalPortReference portRef="rx_frame_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__rx_frame_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="ad9361_unit_0" portRef="rx_frame_p"/>
+                <ipxact:externalPortReference portRef="rx_frame_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__sys_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="PLL_0" portRef="refclk"/>
+                <ipxact:internalPortReference componentRef="PLL_1" portRef="refclk"/>
+                <ipxact:externalPortReference portRef="sys_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__sys_nrst</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="reset2resetn_0" portRef="vector_a"/>
+                <ipxact:externalPortReference portRef="sys_nrst"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__CIC_I2__dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="CIC_I2" portRef="dout"/>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="xin"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>w_net__CIC_Q2__dout</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="CIC_Q2" portRef="dout"/>
+                <ipxact:internalPortReference componentRef="CORDIC_0" portRef="yin"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:interconnections/>
+    <ipxact:vendorExtensions>
+        <anlogic:device>DR1M90GEG484</anlogic:device>
+    </ipxact:vendorExtensions>
+</ipxact:design>
