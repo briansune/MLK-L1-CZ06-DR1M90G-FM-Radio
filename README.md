@@ -6,6 +6,8 @@
 
 Pure Verilog-Based FM Radio using ad-fmcomms3 FMC card.
 
+You need to change the RX frequency from the AD9361 project and regenerate the ini to LUT.
+
 # Hardware Setup
 
 ![{8F8698D6-0987-4185-958C-D7324F0C6F1F}](https://github.com/user-attachments/assets/76bc980c-d422-47af-98bc-6b9ae9efba7e)
