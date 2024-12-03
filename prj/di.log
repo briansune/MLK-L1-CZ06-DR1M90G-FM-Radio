@@ -1,0 +1,38 @@
+#[INFO] design_integrator V2024.07 (APP rel5.9), Windows 64bit (Release), Build 122283 2024/07/29, 14:17:40 Jul 29 2024 on WIN10-204
+#[INFO] Run at Tue Dec  3 16:49:29 2024
+#[INFO] C:\Anlogic\TD_5.9.1_DR1_2024.7_122.301\bin\design_integrator.exe -app_path C:/Anlogic/TD_5.9.1_DR1_2024.7_122.301/bin/td.exe -proj_path F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj -device DR1M90GEG484 -speed -2 -design_name top
+si_set_args -app_path C:/Anlogic/TD_5.9.1_DR1_2024.7_122.301/bin/td.exe -proj_path F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj -device DR1M90GEG484 -speed -2 -design_name top
+#[INFO] The Design.xml (F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/hdmi_core/Design.xml) does not exist.
+si_select_window DesignIntegrator
+si_resize_window DesignIntegrator 1920 1009
+si_select_dialog Open_Design_ProgressDialog
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_ad9361_unit_0/top_ad9361_unit_0.v(1): INFO: compiling module 'top_ad9361_unit_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_ad9361_unit_0/top_ad9361_unit_0.v(60): WARNING: instantiating unknown module 'ad9361_unit' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_PLL_0/top_PLL_0.v(19): INFO: compiling module 'top_PLL_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_PLL_0/top_PLL_0.v(30): WARNING: instantiating unknown module 'DR1_LOGIC_BUFG' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_PLL_0/top_PLL_0.v(123): WARNING: instantiating unknown module 'DR1_PHY_PLL_WRAPERR_89681adc77af' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_Utility_Vector_Logic_0/top_Utility_Vector_Logic_0.v(9): INFO: compiling module 'top_Utility_Vector_Logic_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_Utility_Vector_Logic_0/top_Utility_Vector_Logic_0.v(23): WARNING: instantiating unknown module 'Utility_Vector_Logic_1968c811592b' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_Constant_0/top_Constant_0.v(9): INFO: compiling module 'top_Constant_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_Constant_0/top_Constant_0.v(21): WARNING: instantiating unknown module 'constant_dbe528ceae18' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_del_m_0/top_del_m_0.v(1): INFO: compiling module 'top_del_m_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_del_m_0/top_del_m_0.v(18): WARNING: instantiating unknown module 'del_m' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_hdmi_tmds_audio_0/top_hdmi_tmds_audio_0.v(1): INFO: compiling module 'top_hdmi_tmds_audio_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_hdmi_tmds_audio_0/top_hdmi_tmds_audio_0.v(18): WARNING: instantiating unknown module 'hdmi_tmds_audio' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_PLL_1/top_PLL_1.v(20): INFO: compiling module 'top_PLL_1' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_PLL_1/top_PLL_1.v(137): WARNING: instantiating unknown module 'DR1_PHY_PLL_WRAPERR_174204d0fb94' (VLG-075)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_reset2resetn_0/top_reset2resetn_0.v(9): INFO: compiling module 'top_reset2resetn_0' (VLG-004)
+#F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top/ip/top_reset2resetn_0/top_reset2resetn_0.v(23): WARNING: instantiating unknown module 'Utility_Vector_Logic_4fdfa6bb2a72' (VLG-075)
+#[INFO] si_open_design F:/MLKPAI_FS01/all_ad9361/MLK-L1-CZ06-DR1M90G-FM-Radio/prj/top
+si_graphics_view_scroll top.DesignDiagram DesignDiagram.GraphicsView horizontal -99
+si_graphics_view_scroll top.DesignDiagram DesignDiagram.GraphicsView vertical -11
+si_select_window DesignIntegrator
+si_click_toolbar_item top.DesignDiagram ZoomFull
+si_graphics_view_scroll top.DesignDiagram DesignDiagram.GraphicsView horizontal -43
+si_graphics_view_scroll top.DesignDiagram DesignDiagram.GraphicsView vertical 0
+si_close_window DesignIntegrator
+si_select_dialog ExitDesignIntegrator
+si_click_push_button ExitDesignIntegrator Exit
+#[INFO] si_exit
+si_exit
+#[INFO] Exit 0

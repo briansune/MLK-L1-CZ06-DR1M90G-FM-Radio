@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_top_Utility_Vector_Logic_0</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>Utility_Vector_Logic_1968c811592b_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="Utility_Vector_Logic" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="SIZE">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="And">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Or">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Xor">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="Not">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="OPERATION">3</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>vector_a</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="Utility_Vector_Logic_1968c811592b_Inst" portRef="vector_a"/>
+                <ipxact:externalPortReference portRef="vector_a"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>result_vector</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="Utility_Vector_Logic_1968c811592b_Inst" portRef="result_vector"/>
+                <ipxact:externalPortReference portRef="result_vector"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>DR1M90GEG484</anlogic:device>
+        <anlogic:displayname>Utility_Vector_Logic_1.0</anlogic:displayname>
+        <anlogic:ipGenVersion>1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

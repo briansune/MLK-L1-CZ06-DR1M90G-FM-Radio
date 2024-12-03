@@ -1,0 +1,3 @@
+vector_a; 1
+vector_b; 0
+result_vector; 1
